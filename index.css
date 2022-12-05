@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#000000, #000000);
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+body {
+
+}
+
+
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(122, 11, 11, 0.91);
+    clip-path: circle(50% at bottom right);
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo {
+    position: relative;
+    max-width: 150%;
+}
+header .navagation ul{
+    position: relative;
+    display: flex;
+}
+header .navagation li{
+
+    list-style: none;
+}
+header .navagation li a{
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 19px;
+    margin-left: 100px;
+}
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .text{
+    position: relative;
+    max-width: 600px;
+    margin-right: 20px;
+}
+.container .text h2{
+    color: #ffffff;
+    font-size: 3em;
+    margin-bottom: 10px;
+    line-height: 2.5em;
+    font-weight: 700;
+}
+.container .text h2 span{
+    font-size: 2em;
+    color: rgba(122, 11, 11, 0.91);
+    width: revert;
+}
+.container .text p{
+    color: white;
+}
+.container .text a{
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 15px;
+    background: red;
+    color:white;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    transition:  0.3s ease-in-out;
+}
+.containar .text a:hover{
+    transform: translateY(-10px);
+}
